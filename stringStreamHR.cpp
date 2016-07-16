@@ -6,11 +6,9 @@ using namespace std;
 /*https://www.hackerrank.com/challenges/c-tutorial-stringstream*/
 
 vector<int> parseInts(string str) {
-   // Complete this function
     vector<int> parsedInts;
     stringstream ss(str);
     int num; char ch;
-    //ss >> num; parsedInts.push_back(num);
     while (ss) {
         ss >> num >> ch;
         parsedInts.push_back(num);
