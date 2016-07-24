@@ -6,7 +6,16 @@
 
 using namespace std;
 
+/* Hackerrank challenge Operator overload
+writing a class to hold a matrix 
+overloading  the + operator to add matrices
+Good practice with creating and iterating 2D vectors and 
+operator overloading. 
+https://www.hackerrank.com/challenges/operator-overloading
+ */
+
 class Matrix {
+    //all code my own
     public:
     vector <vector<int> > a;
     
@@ -24,6 +33,7 @@ class Matrix {
 };
 
 int main () {
+    //code supplied by hackerrank challenge
    int cases,k;
    cin >> cases;
    for(k=0;k<cases;k++) {
